@@ -16,6 +16,7 @@ body{
     font-size: 10rem;
     user-select: none;
     cursor: pointer;
+    
 }
 
 .closed{
@@ -27,16 +28,22 @@ body{
 .active{
     display: block;
 }
+.closed1{
+    display: none;
+}
+.open1{
+    display: none;
+}
+.active1{
+    display: block;
+}
 #circle{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkblue;
-    color: white;
-    height: 200px;
-    width: 200px;
     border-radius: 100px;
-    font-size: 1.5rem;
+    font-size: 5rem;
+    user-select: none;
     cursor: pointer;
     transition:cubic-bezier(0.075, 0.82, 0.167, 1) 3s;
 }
